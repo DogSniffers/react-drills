@@ -1,20 +1,16 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
 
-class App extends Component{
-  constructor(){
-    super();
-    this.state={
+import React, { Component } from "react";
+import logo from "./logo.svg";
+import "./App.css";
+import Image from "./Image";
 
-    }
-  }
-  render(){
-    return(
-      <div>
-        <img></img>
+class App extends Component {
+  render() {
+    return (
+      <div className="App">
+        <Image url={"https://i2.wp.com/weeklyworldnews.com/wp-content/uploads/2008/09/fishwithlegs.jpg?resize=500%2C194&ssl=1"} />
       </div>
-    )
+    );
   }
 }
 
